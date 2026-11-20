@@ -125,4 +125,6 @@ npm run build
 npm run preview
 ```
 
-Vite creates `dist/` for static hosting. Hash navigation works without server rewrite rules. This project is local; deployment and a website upload service are not configured.
+Vite creates `dist/` for static hosting. Hash navigation works without server rewrite rules.
+
+In the repository's **Settings → Pages**, set the publishing source to **GitHub Actions**. The **Deploy to GitHub Pages** workflow builds and publishes `dist/` on pushes to `main`. You can also run it from the **Actions** tab.
