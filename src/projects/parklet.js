@@ -26,7 +26,6 @@ export const parkletProject = {
     height: 1423,
   },
   overview: {
-    label: 'The opportunity',
     title: 'An additional study space for students.',
     paragraphs: [
       'Have you ever visited your favorite coffee shop to study, only to realize there’s no space left and wish you could create more? When an opportunity to design additional seating for a public space came up in my design class, I convinced my team to focus on Temple Coffee in Downtown Davis, my favorite study spot.',
@@ -41,8 +40,6 @@ export const parkletProject = {
   sections: [
     {
       id: 'sketching',
-      number: '01',
-      label: 'Form exploration',
       title: 'Sketching the spatial language.',
       body: 'Each member started with individual sketches exploring different ideas. Some of my sketches were inspired by objects around me, such as my mouse. After modeling our top three concepts, we selected one to develop further.',
       layout: 'split',
@@ -52,8 +49,6 @@ export const parkletProject = {
     },
     {
       id: 'rhino',
-      number: '02',
-      label: 'Digital development',
       title: 'Translating the concept into Rhino.',
       body: 'Collaborating as a team, we iterated on the selected model, applying our professor’s feedback. The iteration phase allowed us to test user circulation, seating rhythm, and potential materials.',
       layout: 'wide',
@@ -66,8 +61,6 @@ export const parkletProject = {
     },
     {
       id: 'dimensions',
-      number: '03',
-      label: 'Planning the space',
       title: 'Making room for the details.',
       body: 'To develop a feasible solution that could be translated into reality, we included dimensions. The plan brings the modules, seating, and circulation into one coordinated layout.',
       layout: 'split-reverse',
@@ -77,8 +70,6 @@ export const parkletProject = {
     },
     {
       id: 'fabrication',
-      number: '04',
-      label: 'Fabrication',
       title: 'From digital model to physical prototype.',
       body: 'Due to limited materials, we were only able to build one side of the full-scale model. With the cardboard pieces precisely cut, the fun part began. We assembled the small-scale model first, followed by the full-scale prototype. After a few days, our model was ready for presentation.',
       layout: 'grid-three',
@@ -92,8 +83,6 @@ export const parkletProject = {
     },
     {
       id: 'final-design',
-      number: '05',
-      label: 'Final design',
       title: 'A place to study. A little room to gather.',
       body: 'The final model communicated our idea: extending public space so more people can enjoy it. The concept considers different ways of working, including seated and standing use, as well as space for wheelchair users.',
       layout: 'grid',

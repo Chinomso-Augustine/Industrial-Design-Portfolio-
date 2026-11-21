@@ -190,10 +190,22 @@ function CaseStudySection({ section, projectId, onOpenPhoto }) {
   return (
     <section className={`case-study-section case-study-section--${section.layout || 'wide'}`} aria-labelledby={headingId}>
       <div className="case-section-copy">
-        <p className="case-section-label"><span>{section.number}</span>{section.label}</p>
         <h2 id={headingId}>{section.title}</h2>
         {section.body && <p className="case-section-body">{section.body}</p>}
         {section.bullets?.length > 0 && <ul className="case-section-bullets">{section.bullets.map((item) => <li key={item}>{item}</li>)}</ul>}
+        {section.cutList?.length > 0 && (
+          <table className="case-cut-list">
+            <caption>Lumber cut list</caption>
+            <thead>
+              <tr><th scope="col">Size (in.)</th><th scope="col">Pieces</th></tr>
+            </thead>
+            <tbody>
+              {section.cutList.map(([size, pieces]) => (
+                <tr key={size}><th scope="row">{size}</th><td>{pieces}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        )}
       </div>
       <div className="case-section-media">
         {section.model && <RhinoModel model={section.model} />}
@@ -225,8 +237,8 @@ function Project({ project, onOpen }) {
         <>
           {hero && <Photo photo={hero} className="case-study-hero editorial-photo" eager onOpen={() => openPhoto(hero)} />}
           {project.overview && (
-            <section className="case-study-overview" aria-labelledby="overview-title">
-              <div><p className="case-section-label">{project.overview.label}</p><h2 id="overview-title">{project.overview.title}</h2></div>
+            <section className={`case-study-overview${project.overview.layout === 'centered' ? ' case-study-overview--centered' : ''}`} aria-labelledby="overview-title">
+              <h2 id="overview-title">{project.overview.title}</h2>
               <div className="case-overview-body">{project.overview.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
               {project.overview.features && <dl className="case-features">{project.overview.features.map((feature) => <div key={feature.title}><dt>{feature.title}</dt><dd>{feature.body}</dd></div>)}</dl>}
             </section>

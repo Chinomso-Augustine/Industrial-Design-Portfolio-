@@ -25,7 +25,6 @@ export const studentRunClinicProject = {
     height: 851,
   },
   overview: {
-    label: 'The product',
     title: 'Redesigning a student-run clinic website.',
     paragraphs: [
       'A redesigned website for Juvenile Caduceus Clinic, a student-run clinic at UC Davis that aims to deliver high-quality care and assistance to the underprivileged youth and older adolescents.',
@@ -40,8 +39,6 @@ export const studentRunClinicProject = {
   sections: [
     {
       id: 'meet-the-team',
-      number: '01',
-      label: 'Collaboration',
       title: 'Meet the Team',
       body: 'These are the designers and developers involved in this project. A collaborative clinic website redesign by designers and developers at #Include, a design club at UC Davis.',
       layout: 'wide',
@@ -51,8 +48,6 @@ export const studentRunClinicProject = {
     },
     {
       id: 'understanding-the-user',
-      number: '02',
-      label: 'User research',
       title: 'Understanding the User',
       body: 'Our research showed that many Davis students struggle to find free or affordable healthcare that meets the needs of a diverse community.',
       bullets: [
@@ -67,8 +62,6 @@ export const studentRunClinicProject = {
     },
     {
       id: 'low-fidelity',
-      number: '03',
-      label: 'Starting the design',
       title: 'Lo-Fi Wireframes',
       body: 'Early layouts helped define the page structure, content hierarchy, and main user paths before visual styling was added.',
       layout: 'grid',
@@ -79,8 +72,6 @@ export const studentRunClinicProject = {
     },
     {
       id: 'mid-fidelity',
-      number: '04',
-      label: 'Refining the structure',
       title: 'Mid-Fi Wireframes',
       body: 'The mid-fidelity stage refined spacing, navigation, and section placement so the experience could feel clearer and more usable.',
       layout: 'split-reverse',
@@ -90,8 +81,6 @@ export const studentRunClinicProject = {
     },
     {
       id: 'high-fidelity',
-      number: '05',
-      label: 'Visual design',
       title: 'Hi-Fi Wireframes',
       body: "The high-fidelity design brought the clinic's purple visual system into the interface with more polished components and page details.",
       layout: 'split',
@@ -101,8 +90,6 @@ export const studentRunClinicProject = {
     },
     {
       id: 'teammate-work',
-      number: '06',
-      label: 'Team contributions',
       title: "Teammate's Work",
       body: 'Additional design artifacts from my teammates helped guide the structure, flow, and testing direction for the final experience.',
       layout: 'grid',
@@ -115,8 +102,6 @@ export const studentRunClinicProject = {
     },
     {
       id: 'refining-the-design',
-      number: '07',
-      label: 'Design iteration',
       title: 'Refining the Design',
       body: "This stage brought together multiple homepage explorations and committee page iterations as the interface became more polished and aligned with the clinic's visual direction.",
       layout: 'grid',
@@ -131,8 +116,6 @@ export const studentRunClinicProject = {
     },
     {
       id: 'presentation',
-      number: '08',
-      label: 'Sharing the outcome',
       title: 'Presentation',
       body: 'We presented the final design direction and shared our process with the organization and design team.',
       layout: 'grid',

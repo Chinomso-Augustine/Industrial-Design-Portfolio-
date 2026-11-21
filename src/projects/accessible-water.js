@@ -24,7 +24,6 @@ export const accessibleWaterProject = {
     height: 1038,
   },
   overview: {
-    label: 'The concept',
     title: 'Inclusive, everyday hydration.',
     paragraphs: [
       'A retrofit mouthpiece that makes existing fountains easier to use for direct drinking and reusable bottle filling.',
@@ -33,8 +32,6 @@ export const accessibleWaterProject = {
   sections: [
     {
       id: 'overview',
-      number: '01',
-      label: 'The opportunity',
       title: 'Overview',
       body: 'A retrofit concept for making existing campus fountains more accessible, useful, and affordable to upgrade.',
       layout: 'split-reverse',
@@ -49,8 +46,6 @@ export const accessibleWaterProject = {
     },
     {
       id: 'value-proposition',
-      number: '02',
-      label: 'Everyday use',
       title: 'Value Proposition',
       body: 'The design improves everyday hydration without requiring full fountain replacement.',
       bullets: [
@@ -76,8 +71,6 @@ export const accessibleWaterProject = {
     },
     {
       id: 'ideation',
-      number: '03',
-      label: 'Ideation',
       title: 'How Might We',
       body: 'We focused ideation around access, refill behavior, and campus feasibility.',
       bullets: [
@@ -97,8 +90,6 @@ export const accessibleWaterProject = {
     },
     {
       id: 'prototypes',
-      number: '04',
-      label: 'Testing and iteration',
       title: 'Design and Prototyping',
       body: 'Three prototype rounds tested form, fit, water flow, and installation clarity.',
       bullets: [
@@ -148,8 +139,6 @@ export const accessibleWaterProject = {
     },
     {
       id: 'validation',
-      number: '05',
-      label: 'Sharing the concept',
       title: 'Validation and Next Step',
       body: 'Presented at a research conference and received strong feedback for campus relevance.',
       layout: 'grid',
@@ -182,8 +171,6 @@ export const accessibleWaterProject = {
     },
     {
       id: 'team',
-      number: '06',
-      label: 'Collaboration',
       title: 'Project Team',
       layout: 'team',
       images: [
